@@ -11,3 +11,7 @@ get "/play/:weapon1/:weapon2" do
   @game = Game.play(weapon1, weapon2)
   erb(:result)
 end
+
+get "/" do
+  erb(:home)
+end
