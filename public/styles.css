@@ -1,11 +1,28 @@
 body{
-  background-color: #05ff00;
+  background-color: darkseagreen;
 }
 
 li, h1, p{
   font-family: "Comic Sans MS", Arial, sans-serif;
+  color: darkgreen;
 }
 
+a{
+  color: darkgreen;
+}
+
+/* .green{
+  color: darkgreen;
+} */
+
+/* .bluesteel{
+  color: lightsteelblue;
+} */
+
+
+a:hover{
+  color: green;
+}
 /* h1{
   font-family: "Comic Sans MS", Arial, sans-serif;
 } */
