@@ -5,10 +5,10 @@ require_relative("./models/game.rb")
 
 also_reload("./models/*")
 
-get "/play/:weapon1/:weapon2" do
-  weapon1 = params[:weapon1]
-  weapon2 = params[:weapon2]
-  @game = Game.play(weapon1, weapon2)
+get "/play/:player1/:player2" do
+  player1 = params[:player1]
+  player2 = params[:player2]
+  @game = Game.play(player1, player2)
   erb(:result)
 end
 
