@@ -4,7 +4,7 @@ class Game
 # end
 
 def self.play(weapon1,weapon2)
-  case
+  case true
     # rock beats scissors *2
     when weapon1 == "rock" && weapon2 == "scissors"
       return "Player 1 wins by playing RAWK!!"
