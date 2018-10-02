@@ -2,10 +2,10 @@ body{
   background-color: #05ff00;
 }
 
-li{
+li, h1, p{
   font-family: "Comic Sans MS", Arial, sans-serif;
 }
 
-h1{
+/* h1{
   font-family: "Comic Sans MS", Arial, sans-serif;
-}
+} */
