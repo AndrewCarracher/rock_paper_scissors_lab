@@ -20,6 +20,8 @@ def self.play(player1,player2)
       return "Player 1 wins by playing SCISSORS!!!"
     when player1 == "paper" && player2 == "scissors"
       return "Player 2 wins by playing SCISSORS!!!"
+    when player1 == ":player1" && player2 == ":player2"
+      return "Choose your weapons!"
     else
       return "Tie! Play again?"
     end
